@@ -6,7 +6,7 @@ app.movable = Group()
 map = Group(Circle(200,200,600,fill=gradient("darkGreen", "green","lightGreen","gold")))
 obstaclespawn = Circle(200,200,230,fill=None)
 ballspawn = Circle(200,200,130,fill=None)
-explosion = Group(Star(200,200,240,20,fill=gradient("yellow","orange","red","red")),Label("Bad luck",200,160,size=25))
+explosion = Group(Star(200,200,240,20,fill=gradient("yellow","orange","red","red")),Label("KABOOM",200,160,size=29))
 explosion.visible=False
 minimap = Rect(330,20,50,50,fill=None,border="black")
 icon = Rect(350,40,10,10)
